@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compile" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>document</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <script src="https://kit.fontawesome.com/c35c9e99c7.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <h2 class="logo">𝐉𝐎𝐌<span>𝐎𝐍</span></h2>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a> </li>
+                <li><a href="#about">About</a> </li>
+                <li><a href="#services">services</a> </li>
+                <li><a href="#portfolio">portfolio</a> </li>
+                <li><a href="#contact">contact</a> </li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <p>Full stack web developer</p>
+                <h1>Hi, I'm <span>jomon</span><br>joy from india</h1>
+            </div>
+    </div>
+</div>
+<!-- -----------about----------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>*Hello, I'm JOMON JOY!
+                    <BR>
+                    I am a motivated and inquisitive 3rd-year Computer Science and Engineering student with a keen interest in the dynamic world of full-stack web development.
+                    <BR>
+                    Currently pursuing my degree in Computer Science and Engineering, I am fascinated by the endless possibilities that technology offers to shape the future. My academic journey has equipped me with a strong foundation in algorithms, data structures, and software engineering principles.
+                    <BR>
+                    My heart lies in the realm of full-stack web development, where creativity meets functionality. From designing intuitive user interfaces to architecting robust server-side systems, I thrive on the challenges posed by this ever-evolving field.
+                    </p>  
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programing Languages</span><br>Html<br>Css<br>Javascript<br>python<br></li>
+                            <li><span>Frame Works</span><br>Bootstrap<br>React<br>Node.js<br>Django</li>
+                            <li><span>Database</span><br>MySQL</li>
+                            <li><span>Terminal basics</span><br>Bash</li>
+                            <li><span>Other's</span><br>Git | Github<BR>Rest API<br>AWS<br></l>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                        <li><span>Student</span><br>still studing...!</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2025</span><br>Bachelor's in computer science & Engineering <br>At jct college of engineering & technology, tamil nadu</li>
+                        </ul>
+                     </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------services----------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2> Web Design</h2>
+                <p>Elevate your online presence with our expert web Development services</p>
+                <a href="https://en.wikipedia.org/wiki/Web_design">Learn more...</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2> App Design</h2>
+                <p>Elevate your online presence with our customized apps that only for your</p>
+                <a href="https://en.wikipedia.org/wiki/Application_development">Learn more...</a>
+            </div>
+           
+        </div>
+    </div>
+</div>
+
+<!-- -----------portfolio------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.jpg">
+                <div class="layer">
+                    <h3>social media app</h3>
+                    <P>the app provides you to chat with your friends across the world.<br>
+                    Download it from play store</P>
+                    <a href="my works\calculator\index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work2.jpg">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <P>in this app you can find the best price products across the world<br>
+                    Download it from play store</P>
+                    <a href="my works\stopwatch\index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work2.jpg">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <P>in this app you can find the best price products across the world<br>
+                    Download it from play store</P>
+                    <a href="my works\calculator\index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work3.jpg">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <P>in this app you can create your favourite play list and enjoy unlimited.<br>
+                    Download it from play store</P>
+                    <a href="my works\stopwatch\index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                </div>
+            </div>
+        </div>
+        <a href="my works" class="between">See more</a>
+
+    </div>
+</div>
+
+<!----------------------------contact------------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"> contact me</h1>
+                <p><i class="fa-solid fa-envelope"></i>jomonoffline@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>+918590215177</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/jomon-joy-959224274?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://wa.me/+918590215177"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://t.me/jomonhh"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="https://github.com/jomonhh"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/cv.pdf" download class="between between2">Download</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="message" rows="6" placeholder="Your message" required></textarea>
+                    <button type="Submit" class="between between2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>𝙲𝚘𝚙𝚢𝚛𝚒𝚐𝚑𝚝 © 𝙹𝚘𝚖𝚘𝚗. 𝙼𝚊𝚍𝚎 𝚏𝚘𝚛 𝚖𝚢 𝚙𝚎𝚛𝚜𝚘𝚗𝚊𝚕  𝚞𝚜𝚎 <i class="fa-solid fa-person"></i></p>
+    </div>
+
+</div>
+
+<script>
+    
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = '0';
+    }
+    function closemenu(){
+        sidemenu.style.right = '-200px';
+    }
+</script>  
+
+<script>
+    const scriptURL ='https://script.google.com/macros/s/AKfycbzPfuOjhCiGC-DWskulmacdTJSfCUutuAuWsPChYnbNVMnUxdOIUkrhXKHuxOJeTXaVVA/exec';
+    const form = document.forms['submit-to-google-sheet'];
+    const msg = document.getElementById("msg");
+  
+    form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => {
+                msg.innerHTML = "Message sent successfully";
+                setTimeout(function(){
+                    msg.innerHTML = "";
+                },3000);
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message));
+    });
+</script>
+  
+</body>
+</html>

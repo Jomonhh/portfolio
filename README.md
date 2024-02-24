@@ -1,3 +1,3 @@
 # portfolio
 <br>
-https://jomonhh.github.io/portfolio
+https://Jomonh.github.io/portfolio

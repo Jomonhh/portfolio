@@ -13,7 +13,7 @@
 <div id="header">
     <div class="container">
         <nav>
-            <h2 class="logo">𝐉𝐎𝐌<span>𝐎𝐍</span></h2>
+            <h2 class="logo">𝐉𝐎𝐌<span>𝐎𝐍.</span></h2>
             <ul id="sidemenu">
                 <li><a href="#header">Home</a> </li>
                 <li><a href="#about">About</a> </li>
@@ -104,46 +104,31 @@
         <h1 class="sub-title">My Works</h1>
         <div class="work-list">
             <div class="work">
-                <img src="images/work1.jpg">
+                <img src="images/calculator.jpg">
                 <div class="layer">
-                    <h3>social media app</h3>
-                    <P>the app provides you to chat with your friends across the world.<br>
-                    Download it from play store</P>
+                    <h3>Calculator</h3>
+                    <P>A stylish web calculator using html, css and javascript to do arithmatic operations like addition,subtraction and etc. </P>
                     <a href="my works\calculator\index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
             <div class="work">
-                <img src="images/work2.jpg">
+                <img src="images/clock.jpg">
                 <div class="layer">
-                    <h3>Online Shopping App</h3>
-                    <P>in this app you can find the best price products across the world<br>
-                    Download it from play store</P>
-                    <a href="my works\stopwatch\index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <h3>Digital Clock</h3>
+                    <P>a stylish transparent digital clock using html, css and javacsript to provide the current time.</P>
+                    <a href="my works\digital clock\index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
-
             <div class="work">
-                <img src="images/work2.jpg">
+                <img src="images/stopwatch.jpg">
                 <div class="layer">
-                    <h3>Online Shopping App</h3>
-                    <P>in this app you can find the best price products across the world<br>
-                    Download it from play store</P>
-                    <a href="my works\calculator\index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                </div>
-            </div>
-
-            <div class="work">
-                <img src="images/work3.jpg">
-                <div class="layer">
-                    <h3>Music App</h3>
-                    <P>in this app you can create your favourite play list and enjoy unlimited.<br>
-                    Download it from play store</P>
-                    <a href="my works\stopwatch\index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                </div>
+                    <h3>stopwatch</h3>
+                    <P>A stop watch using html, css and javacsript to provide multipleactions like start, stop and restart  </P>
+                    <a href="my works\stop watch\index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
         </div>
-        <a href="my works" class="between">See more</a>
+        <a href="my works" class="btn">See more</a>
 
     </div>
 </div>
@@ -162,16 +147,16 @@
                     <a href="https://t.me/jomonhh"><i class="fa-brands fa-telegram"></i></a>
                     <a href="https://github.com/jomonhh"><i class="fa-brands fa-github"></i></a>
                 </div>
-                <a href="images/cv.pdf" download class="between between2">Download</a>
+                <a href="images/cv.pdf" download class="btn btn2">Download</a>
             </div>
             <div class="contact-right">
-                <form name="submit-to-google-sheet">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="c3cc633b-e9f8-4db9-89e4-b391619684bf">
                     <input type="text" name="Name" placeholder="Your Name" required>
                     <input type="email" name="email" placeholder="Your email" required>
                     <textarea name="message" rows="6" placeholder="Your message" required></textarea>
-                    <button type="Submit" class="between between2">Submit</button>
+                    <button type="Submit" class="btn btn2">Submit</button>
                 </form>
-                <span id="msg"></span>
             </div>
         </div>
     </div>
@@ -210,25 +195,6 @@
         sidemenu.style.right = '-200px';
     }
 </script>  
-
-<script>
-    const scriptURL ='https://script.google.com/macros/s/AKfycbzPfuOjhCiGC-DWskulmacdTJSfCUutuAuWsPChYnbNVMnUxdOIUkrhXKHuxOJeTXaVVA/exec';
-    const form = document.forms['submit-to-google-sheet'];
-    const msg = document.getElementById("msg");
-  
-    form.addEventListener('submit', function(e) {
-        e.preventDefault();
-        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-            .then(response => {
-                msg.innerHTML = "Message sent successfully";
-                setTimeout(function(){
-                    msg.innerHTML = "";
-                },3000);
-                form.reset();
-            })
-            .catch(error => console.error('Error!', error.message));
-    });
-</script>
   
 </body>
 </html>

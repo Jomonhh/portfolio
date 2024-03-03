@@ -1,4 +1,3 @@
 # portfolio
 <br>
-live link: <br>
-https://Jomonhh.github.io/portfolio
+live link:  http://www.jomonh.me/

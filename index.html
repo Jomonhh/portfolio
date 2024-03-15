@@ -10,6 +10,11 @@
         <script src="https://kit.fontawesome.com/c35c9e99c7.js" crossorigin="anonymous"></script>
     </head>
 <body>
+    
+<div id="loading" class="loading page">
+    <div class="glitch" data-glitch="Loading...">Loading...</div>
+</div>
+    
 <div id="header">
     <div class="container">
         <nav>
@@ -195,6 +200,15 @@
         sidemenu.style.right = '-200px';
     }
 </script>  
+
+    
+<script>
+    var loader = document.getElementById("loading");
+
+    window.addEventListener("load", function(){
+        loader.style.display ="none"
+    })
+</script>
   
 </body>
 </html>
